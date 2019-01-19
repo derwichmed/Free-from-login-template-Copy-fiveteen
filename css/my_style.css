@@ -1,0 +1,62 @@
+body{
+    background-color: #e4e4e4
+}
+.form_login > div{
+    background-image: linear-gradient(to top left,#23bc90,#1b778c);
+    background-color: skyblue;
+    border-radius: 10px;
+    margin-top: 100px;
+    width: 300px;
+    margin-bottom: 50px
+}
+.form_login form > div{
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-right: 25px
+}
+.form_login form input{
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    border-bottom: white 2px solid
+}
+.form_login form input::placeholder{
+    color: white;
+    font-weight: 500;
+    font-size: 15px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+}
+.form_login form label{
+    color: #46c1af;
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 15px
+}
+.form_login strong{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: "Raleway";
+    line-height: 26px;
+    text-transform: none;
+    letter-spacing: 0px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    margin-top: 30px;
+    display: block
+}
+.form_login form input[type=submit]{
+    width: 100%;
+    border: none;
+    height: 60px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background-image: linear-gradient(to top left,#1d9685,#1b778c);
+    margin-top: 150px;
+    border-top: #43ab7a 4px solid
+}
